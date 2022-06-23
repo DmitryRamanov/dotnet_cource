@@ -6,7 +6,9 @@ namespace _1_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           Console.Write("Введите число: ");
+           int a = int.Parse(Console.ReadLine());
+           Console.WriteLine($"Квадрат числа {a} равен {a*a}");
         }
     }
 }
