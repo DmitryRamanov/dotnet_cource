@@ -1,0 +1,16 @@
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ex_6.exe
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ex_6.deps.json
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ex_6.runtimeconfig.json
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ex_6.runtimeconfig.dev.json
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ex_6.dll
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ref\ex_6.dll
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\bin\Debug\net5.0\ex_6.pdb
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.csproj.AssemblyReference.cache
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.AssemblyInfoInputs.cache
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.AssemblyInfo.cs
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.csproj.CoreCompileInputs.cache
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.dll
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ref\ex_6.dll
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.pdb
+D:\GeekBrain\C#\Beginner\dotnet_cource\1_Lesson\HW\ex_6\obj\Debug\net5.0\ex_6.genruntimeconfig.cache
