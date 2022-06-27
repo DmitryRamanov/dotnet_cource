@@ -53,7 +53,7 @@ namespace ex_13
             //получаем от пользователя корректное число
             int userValue = GetCorrectUserValue();
             
-            //показывает вторую цифру этого числа
+            //показывает нужную цифру этого числа
             ShowSpecifiedNumberInValue(in userValue, indexNumber);
         }
     }
