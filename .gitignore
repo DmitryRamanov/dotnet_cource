@@ -1,3 +1,9 @@
+1_Lesson/*
+2_Lesson/*
+3_Lesson/*
+bin/
+obj/
+
 # Prerequisites
 *.d
 
