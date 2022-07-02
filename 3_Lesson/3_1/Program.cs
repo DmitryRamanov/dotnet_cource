@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace _3_1
+{
+   
+    class Program
+    {
+        static void Quarters(int x, int y)
+        {
+            if (x == 0 || y == 0) Console.WriteLine("x = 0, y = 0");
+            else if (x > 0 & y > 0) Console.WriteLine("I");
+            else if (x < 0 & y > 0) Console.WriteLine("II");
+            else if (x < 0 & y < 0) Console.WriteLine("III");
+            else if (x > 0 & y < 0) Console.WriteLine("IV");
+        }
+         static void Main(string[] args)
+        {
+            /*
+                Напишите программу, которая принимает на вход координаты точки (X и Y),
+                причём X ≠ 0 или Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
+            */
+
+            Quarters(0, 1);
+            Quarters(2, 1);
+            Quarters(-2, 1);
+            Quarters(-2, -1);
+            Quarters(2, -1);
+        }
+    }
+}
