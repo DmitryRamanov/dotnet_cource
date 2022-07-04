@@ -1,4 +1,7 @@
-﻿int GetNumberLenght(int value)
+﻿// 1. Напишите программу, которая принимает
+//    на вход число и выдаёт количество цифр в числе.
+
+int GetNumberLenght(int value)
 {
     int result = 1;
 
