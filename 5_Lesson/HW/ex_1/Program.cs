@@ -4,6 +4,11 @@
 [345, 897, 568, 234] -> 2
 */
 
+/// <summary>
+/// Создаем одномерный массив
+/// </summary>
+/// <param name="x">Кол-во элементов в массиве</param>
+/// <returns></returns>
 int[] CreateArray(int x)
 {
     return new int[x];
