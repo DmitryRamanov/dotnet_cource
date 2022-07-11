@@ -2,6 +2,11 @@
 // 0, 7, 8, -2, -2 -> 2
 // -1, -7, 567, 89, 223 -> 3
 
+/// <summary>
+/// Считаем, сколько чисел больше 0 есть в массиве
+/// </summary>
+/// <param name="array">Ссылка на массив</param>
+/// <returns></returns>
 int CalcPositiveNumberInArray(int[] array)
 {
     int result = 0;
@@ -15,6 +20,11 @@ int CalcPositiveNumberInArray(int[] array)
     return result;
 }
 
+/// <summary>
+/// Конвертируем строку в массив из целих чисел
+/// </summary>
+/// <param name="value">Исходная строка</param>
+/// <returns></returns>
 int[] ConvertStringToIntArray(string value)
 {
     string[] strArray = value.Split(','); //разбиваем строку на массив строк, используя разделитель запятую
@@ -45,6 +55,10 @@ int[] ConvertStringToIntArray(string value)
     return result;
 }
 
+/// <summary>
+/// Выводим в консоль содержимое массива
+/// </summary>
+/// <param name="array">Ссылка на исходный массив</param>
 void PrintArray(Array array)
 {
     foreach (var item in array)
