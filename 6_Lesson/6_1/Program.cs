@@ -25,14 +25,20 @@ void PrintArray(int[] array)
     }
 }
 
-void ReversArray(int[array])
+void ReversArray(int[] array)
 {
-
+    int arrayLength = array.Length;
+    for (int i = 0; i < arrayLength / 2; i++)
+    {
+        int tempValue = array[i];
+        array[i] = array[arrayLength - i - 1];
+        array[arrayLength - i - 1] = tempValue;
+    }
 }
 
-int[] orignArray = CreateEmptyArray(5);
+int[] orignArray = CreateEmptyArray(8);
 FillRandomArray(orignArray, 1, 10);
 PrintArray(orignArray);
-int[] reversArray = orignArray;
-ReversArray(reversArray);
-PrintArray(reversArray);
+ReversArray(orignArray);
+Console.Write("-> ");
+PrintArray(orignArray);
