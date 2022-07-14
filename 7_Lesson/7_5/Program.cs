@@ -1,14 +1,11 @@
-﻿// Задайте двумерный массив. Найдите элементы, у которых
-// обе позиции чётные, и замените эти элементы на их квадраты.
-// Например, изначально массив выглядел вот так:
+﻿// Задайте двумерный массив. Введите элемент, и найдите первое его вхождение, выведите позиции по горизонтали и
+// вертикали, или напишите, что такого элемента нет.
+// Например, такой массив:
 // 1 4 7 2
 // 5 9 2 3
 // 8 4 2 4
-
-// Новый массив будет выглядеть вот так:
-// 1 4 7 2
-// 5 81 2 9
-// 8 4 2 4
+// Введенный элемент 2, результат: [1, 4]
+// Введенный элемент 6, результат: такого элемента нет.
 
 int[,] CreateEmpty2DArray(int rowsNumber, int columnsNumber)
 {
@@ -44,26 +41,30 @@ void Print2DArray(int[,] array2D)
     }
 }
 
-void Modify2DArray(int[,] array2D)
+void CheckValueInArray(int[,] array2D, int valueForChecking, out int coordX, out int coordY)
 {
     int rowsNumber = array2D.GetLength(0);
     int columnsNumber = array2D.GetLength(1);
+    coordX = coordY = -1;
 
     for (int row_index = 0; row_index < rowsNumber; row_index++)
     {
         for (int column_index = 0; column_index < columnsNumber; column_index++)
         {
-            if ((row_index + 1) % 2 == 0 && (column_index + 1) % 2 == 0)
+            if (valueForChecking == array2D[row_index, column_index])
             {
-                array2D[row_index, column_index] *= array2D[row_index, column_index];
+                coordX = column_index;
+                coordY = row_index;
+                break;
             }
         }
     }
 }
 
-int[,] array2D = CreateEmpty2DArray(4, 3);
-Fill2DArray(array2D, 1, 10);
+int[,] array2D = CreateEmpty2DArray(3, 4);
+int valueForChecking = 3;
+int coordX, coordY = -1;
+Fill2DArray(array2D, 1, 9);
 Print2DArray(array2D);
-Modify2DArray(array2D);
-Console.WriteLine();
-Print2DArray(array2D);
+CheckValueInArray(array2D, valueForChecking, out coordX, out coordY);
+Console.WriteLine($"Введенный элемент {valueForChecking}, результат: [{coordY + 1}, {coordX + 1}]");
