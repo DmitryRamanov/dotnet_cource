@@ -77,6 +77,11 @@ int? GetValueInArray(int[,] array2D, int rowNumber, int columnNumber)
     return result;
 }
 
+/// <summary>
+/// Получаем от пользователя номер позиции, для заданного измерения массива
+/// </summary>
+/// <param name="coordinateName">Название измерения массива</param>
+/// <returns>Возращает введенное пользователем целое число</returns>
 int GetСoordinateFromUser(string coordinateName)
 {
     int result;
