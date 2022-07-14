@@ -16,9 +16,9 @@ double[,] CreateEmptyArray2D(int numberRows, int numberColumns)
 }
 
 /// <summary>
-/// 
+/// Заполняем 2-х мерный массив, рандомными значениями
 /// </summary>
-/// <param name="array2D"></param>
+/// <param name="array2D">Ссылка на исходный массив</param>
 void FillArray2D(double[,] array2D)
 {
     int numberRows = array2D.GetLength(0); //получаем кол-во строк в массиве
@@ -33,6 +33,10 @@ void FillArray2D(double[,] array2D)
     }
 }
 
+/// <summary>
+/// Вывод элементов 2-х мерного массива в консоль
+/// </summary>
+/// <param name="array2D">Ссылка на исходный массив</param>
 void PrintArray2D(double[,] array2D)
 {
     int numberRows = array2D.GetLength(0); //получаем кол-во строк в массиве
