@@ -20,5 +20,5 @@ string GetNaturalNumbersInString(int value)
 }
 
 Console.Write("Введите значение N: ");
-int valueN = int.Parse(Console.ReadLine());
+int valueN = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"N = {valueN} -> {GetNaturalNumbersInString(valueN)}");

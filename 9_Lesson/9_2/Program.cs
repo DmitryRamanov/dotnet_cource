@@ -20,9 +20,9 @@ string GetNaturalNumbersInString(int valueStart, int valueEnd)
 }
 
 Console.Write("Введите значение M: ");
-int valueM = int.Parse(Console.ReadLine());
+int valueM = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите значение N: ");
-int valueN = int.Parse(Console.ReadLine());
+int valueN = Convert.ToInt32(Console.ReadLine());
 Console.Write($"M = {valueM}, N = {valueN} -> {GetNaturalNumbersInString(valueM, valueN)}");
 if (valueM > valueN)
 {

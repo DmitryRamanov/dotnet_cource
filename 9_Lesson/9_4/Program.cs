@@ -13,8 +13,8 @@ int GetTheExponentOfANumber(int valueA, int valueB)
 }
 
 Console.Write("Введите значение A: ");
-int valueA = int.Parse(Console.ReadLine());
+int valueA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите значение B: ");
-int valueB = int.Parse(Console.ReadLine());
+int valueB = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"A = {valueA}, B = {valueB} -> {GetTheExponentOfANumber(valueA, valueB)}");
